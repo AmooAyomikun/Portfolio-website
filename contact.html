@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact — Amoo Quadri</title>
+  <meta name="description" content="Get in touch with Amoo Quadri — open to job opportunities, freelance work, and collaborations." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="/css/style.css" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="navbar-inner">
+      <a href="/index.html" class="nav-logo">AmooAyomikun</a>
+      <ul class="nav-links">
+        <li><a href="/index.html">Home</a></li>
+        <li><a href="/about.html">About</a></li>
+        <li><a href="/projects.html">Projects</a></li>
+        <li><a href="/skills.html">Skills</a></li>
+        <li><a href="/contact.html">Contact</a></li>
+      </ul>
+      <div class="nav-actions">
+        <button class="btn-theme" aria-label="Toggle theme">
+          <i class="fa-solid fa-sun theme-icon"></i>
+        </button>
+        <button class="hamburger" aria-label="Open menu">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <div class="nav-mobile" aria-hidden="true">
+    <a href="/index.html">Home</a>
+    <a href="/about.html">About</a>
+    <a href="/projects.html">Projects</a>
+    <a href="/skills.html">Skills</a>
+    <a href="/contact.html">Contact</a>
+  </div>
+
+  <main class="page">
+    <section class="section">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-label">Get In Touch</p>
+          <h2 class="section-title reveal">Let's build something.</h2>
+        </div>
+
+        <div class="contact-grid">
+
+          <!-- LEFT: Contact Info -->
+          <div class="contact-info">
+            <p class="contact-lead reveal reveal-delay-1">
+              Open to full-time roles, freelance projects, and interesting collaborations. If you have something worth building, let's talk.
+            </p>
+
+            <div class="contact-links">
+              <a href="mailto:amooquadri555@gmail.com" class="contact-link-item reveal reveal-delay-2">
+                <i class="fa-solid fa-envelope"></i>
+                <div>
+                  <span class="link-label">Email</span>
+                  <span class="link-value">amooquadri555@gmail.com</span>
+                </div>
+              </a>
+              <a href="https://github.com/AmooAyomikun" target="_blank" rel="noopener" class="contact-link-item reveal reveal-delay-3">
+                <i class="fa-brands fa-github"></i>
+                <div>
+                  <span class="link-label">GitHub</span>
+                  <span class="link-value">github.com/AmooAyomikun</span>
+                </div>
+              </a>
+              <a href="https://www.linkedin.com/in/ayomikun-amoo-6b836428b/" target="_blank" rel="noopener" class="contact-link-item reveal reveal-delay-4">
+                <i class="fa-brands fa-linkedin"></i>
+                <div>
+                  <span class="link-label">LinkedIn</span>
+                  <span class="link-value">linkedin.com/in/ayomikun-amoo-6b836428b/</span>
+                </div>
+              </a>
+              <a href="https://x.com/ayomhykun" target="_blank" rel="noopener" class="contact-link-item reveal reveal-delay-5">
+                <i class="fa-brands fa-x-twitter"></i>
+                <div>
+                  <span class="link-label">Twitter / X</span>
+                  <span class="link-value">@ayomhykun</span>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <!-- RIGHT: Contact Form -->
+          <div class="reveal reveal-delay-2">
+            <div class="contact-form-wrap">
+              <form id="contact-form" action="https://formspree.io/f/xpqklpdg" method="POST" novalidate>
+                <div class="form-row">
+                  <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Amoo Ayomikun" required autocomplete="name" />
+                  </div>
+                  <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="amoo@gmail.com" required autocomplete="email"
+                    />
+                  </div>
+                </didv>
+
+                <div class="form-group">
+                  <label for="subject">Subject</label>
+                  <input type="text" id="subject" name="subject" placeholder="Job opportunity / Freelance project / Collaboration" required />
+                </div>
+
+                <div class="form-group">
+                  <label for="message">Message</label>
+                  <textarea id="message" name="message" placeholder="Tell me about the project, role, or idea..." required ></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-primary form-submit">
+                  <i class="fa-solid fa-paper-plane"></i>
+                  Send Message
+                </button>
+
+                <div id="form-message" class="form-message" role="alert" aria-live="polite"></div>
+              </form>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-inner">
+      <p class="footer-copy">
+        &copy; 2026 Amoo Quadri Ayomikun.
+      </p>
+      <div class="footer-socials">
+        <a href="https://github.com/AmooAyomikun" target="_blank" rel="noopener" aria-label="GitHub">
+          <i class="fa-brands fa-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/ayomikun-amoo-6b836428b/" target="_blank" rel="noopener" aria-label="LinkedIn">
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+        <a href="https://x.com/ayomhykun" target="_blank" rel="noopener" aria-label="Twitter / X">
+          <i class="fa-brands fa-x-twitter"></i>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <script type="module" src="/js/main.js"></script>
+</body>
+</html>

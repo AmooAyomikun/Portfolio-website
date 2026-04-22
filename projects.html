@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projects — Amoo Quadri</title>
+  <meta name="description" content="Amoo Quadri's personal projects — DevFlow, NeuralNotes, CartographyJS, Quanta API, StreamSync, AmiCLI." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="/css/style.css" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="navbar-inner">
+      <a href="/index.html" class="nav-logo">AmooAyomikun</a>
+      <ul class="nav-links">
+        <li><a href="/index.html">Home</a></li>
+        <li><a href="/about.html">About</a></li>
+        <li><a href="/projects.html">Projects</a></li>
+        <li><a href="/skills.html">Skills</a></li>
+        <li><a href="/contact.html">Contact</a></li>
+      </ul>
+      <div class="nav-actions">
+        <button class="btn-theme" aria-label="Toggle theme">
+          <i class="fa-solid fa-sun theme-icon"></i>
+        </button>
+        <button class="hamburger" aria-label="Open menu">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <div class="nav-mobile" aria-hidden="true">
+    <a href="/index.html">Home</a>
+    <a href="/about.html">About</a>
+    <a href="/projects.html">Projects</a>
+    <a href="/skills.html">Skills</a>
+    <a href="/contact.html">Contact</a>
+  </div>
+
+  <main class="page">
+    <section class="section">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-label">My Work</p>
+          <h2 class="section-title reveal">Things I've built</h2>
+          <p class="reveal reveal-delay-1" style="max-width:540px;margin-top:16px;">
+            A selection of personal and open-source projects. Each one was a chance to learn something new and solve a real problem.
+          </p>
+        </div>
+
+        <!-- FILTERS -->
+        <div class="projects-filters reveal reveal-delay-2">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="frontend">Frontend</button>
+        </div>
+
+        <!-- PROJECTS GRID -->
+        <div class="projects-grid">
+
+          <!-- Habit Tracker -->
+          <div class="project-card reveal reveal-delay-1" data-tags="frontend javascript canvas open-source">
+            <div class="project-header">
+              <div class="project-icon"><i class="fa fa-list" aria-hidden="true"></i></div>
+              <div class="project-external">
+                <a href="https://github.com/AmooAyomikun/JS-Habit-Tracker-App" target="_blank" rel="noopener" aria-label="GitHub">
+                  <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="https://amooayomikun.github.io/JS-Habit-Tracker-App/" target="_blank" rel="noopener" aria-label="Live demo">
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+              </div>
+            </div>
+            <h3 class="project-title">Habit Tracker App</h3>
+            <p class="project-desc">
+              Habit Tracker is a fully interactive, front-end web application designed to help users create, track, and maintain daily and weekly habits. With a visually engaging interface, users can monitor their progress, maintain streaks, and categorize habits to achieve personal goals more effectively.
+            </p>
+            <div class="tag-list">
+              <span class="tag">JavaScript</span>
+              <span class="tag">HTML</span>
+              <span class="tag">CSS</span>
+            </div>
+          </div>
+
+          <!-- Weather App -->
+          <div class="project-card reveal reveal-delay-2" data-tags="frontend javascript canvas open-source">
+            <div class="project-header">
+              <div class="project-icon"><i class="fas fa-sun"></i></div>
+              <div class="project-external">
+                <a href="https://github.com/AmooAyomikun/JavaScript-Weather-App" target="_blank" rel="noopener" aria-label="GitHub">
+                  <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="https://amooayomikun.github.io/JavaScript-Weather-App/" target="_blank" rel="noopener" aria-label="Live demo">
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+              </div>
+            </div>
+            <h3 class="project-title">Weather App</h3>
+            <p class="project-desc">
+              A fully responsive and interactive weather application built with Vanilla JavaScript, leveraging the OpenWeatherMap API to deliver real-time weather data, location-based forecasts, and an intuitive user experience.
+            </p>
+            <div class="tag-list">
+              <span class="tag">JavaScript</span>
+              <span class="tag">HTML</span>
+              <span class="tag">CSS</span>
+              <span class="tag">OpenWeatherMap API</span>
+            </div>
+          </div>
+
+          <!-- Note App -->
+          <div class="project-card reveal reveal-delay-3" data-tags="frontend javascript canvas open-source">
+            <div class="project-header">
+              <div class="project-icon"><i class="fas fa-sticky-note"></i></div>
+              <div class="project-external">
+                <a href="https://github.com/AmooAyomikun/JavaScript-Note-App" target="_blank" rel="noopener" aria-label="GitHub">
+                  <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="https://amooayomikun.github.io/JavaScript-Note-App/" target="_blank" rel="noopener" aria-label="Live demo">
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+              </div>
+            </div>
+            <h3 class="project-title">Note App</h3>
+            <p class="project-desc">
+              This is a vanilla JavaScript notes application that provides full CRUD (Create, Read, Update, Delete) functionality with local data persistence.
+            </p>
+            <div class="tag-list">
+              <span class="tag">JavaScript</span>
+              <span class="tag">HTML</span>
+              <span class="tag">CSS</span>
+            </div>
+          </div>
+
+          <!-- Quiz App -->
+          <div class="project-card reveal reveal-delay-1" data-tags="frontend javascript canvas open-source">
+            <div class="project-header">
+              <div class="project-icon"><i class="fa-solid fa-question"></i></div>
+              <div class="project-external">
+                <a href="https://github.com/AmooAyomikun/JavaScript-Quiz-App" target="_blank" rel="noopener" aria-label="GitHub">
+                  <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="https://amooayomikun.github.io/JavaScript-Quiz-App/" target="_blank" rel="noopener" aria-label="Live demo">
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+              </div>
+            </div>
+            <h3 class="project-title">Quiz App</h3>
+            <p class="project-desc">
+              An interactive quiz application built with Vanilla JavaScript, designed to test users with multiple-choice questions and provide real-time scoring and performance feedback.
+            </p>
+            <div class="tag-list">
+              <span class="tag">JavaScript</span>
+              <span class="tag">HTML</span>
+              <span class="tag">CSS</span>
+              <span class="tag">Local Storage</span>
+            </div>
+          </div>
+
+          <!-- Form Validation -->
+          <div class="project-card reveal reveal-delay-2" data-tags="frontend javascript canvas open-source">
+            <div class="project-header">
+              <div class="project-icon"><i class="fa-solid fa-circle-check"></i></div>
+              <div class="project-external">
+                <a href="https://github.com/AmooAyomikun/JavaScript-Form-Validation" target="_blank" rel="noopener" aria-label="GitHub">
+                  <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="https://amooayomikun.github.io/JavaScript-Form-Validation/" target="_blank" rel="noopener" aria-label="Live demo">
+                  
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+              </div>
+            </div>
+            <h3 class="project-title">Form Validation</h3>
+            <p class="project-desc">
+              This project is a client-side form validation system built with Vanilla JavaScript. It demonstrates how to validate user input dynamically using JavaScript while providing immediate feedback to users.
+            </p>
+            <div class="tag-list">
+              <span class="tag">JavaScript</span>
+              <span class="tag">HTML</span>
+              <span class="tag">CSS</span>
+            </div>
+          </div>
+
+          <!-- Movie Finder App -->
+          <div class="project-card reveal reveal-delay-3" data-tags="frontend javascript canvas open-source">
+            <div class="project-header">
+              <div class="project-icon"><i class="fa-solid fa-magnifying-glass">  </i><i class="fa-solid fa-film"></i></div>
+              <div class="project-external">
+                <a href="https://github.com/AmooAyomikun/JavaScript-Movie-Finder-App" target="_blank" rel="noopener" aria-label="GitHub">
+                  <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="https://amooayomikun.github.io/JavaScript-Movie-Finder-App/" target="_blank" rel="noopener" aria-label="Live demo">
+                  
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+              </div>
+            </div>
+            <h3 class="project-title">Movie Search & Favorites App</h3>
+            <p class="project-desc">
+              A responsive, feature-rich movie search application that allows users to explore movies, apply filters, view detailed information, and manage a persistent favorites list. Built with vanilla JavaScript and powered by the OMDB API.
+            </p>
+            <div class="tag-list">
+              <span class="tag">JavaScript</span>
+              <span class="tag">HTNL</span>
+              <span class="tag">CSS</span>
+              <span class="tag">OMDB API</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-inner">
+      <p class="footer-copy">
+        &copy; 2026 Amoo Quadri Ayomikun.
+      </p>
+      <div class="footer-socials">
+        <a href="https://github.com/AmooAyomikun" target="_blank" rel="noopener" aria-label="GitHub">
+          <i class="fa-brands fa-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/ayomikun-amoo-6b836428b/" target="_blank" rel="noopener" aria-label="LinkedIn">
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+        <a href="https://x.com/ayomhykun" target="_blank" rel="noopener" aria-label="Twitter / X">
+          <i class="fa-brands fa-x-twitter"></i>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <script type="module" src="/js/main.js"></script>
+</body>
+</html>
