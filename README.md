@@ -2,7 +2,7 @@
 
 A clean, modern, and fully responsive personal portfolio website built with vanilla HTML, CSS, and JavaScript. Designed to showcase projects, skills, and experience — with zero frameworks, zero dependencies.
 
-**Live Site:** [amooayomikun.github.io](https://amooayomikun.github.io)
+**Live Site:** https://amoo-quadri-ayomikun-portfolio.onrender.com
 
 ## Features
 
